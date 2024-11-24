@@ -1,14 +1,10 @@
-import './App.css';
+import './styles/App.css';
+import { Header } from './headerModel/header.model';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Sweet Nothings is an idea about sending a gift to your significant
-          other and surprising them with a gift upon arrival.
-        </p>
-      </header>
+      <Header />
     </div>
   );
 }
